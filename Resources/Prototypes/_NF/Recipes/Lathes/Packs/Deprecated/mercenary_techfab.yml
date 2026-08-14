@@ -47,10 +47,10 @@
   - ClothingNeckIFFBlue
   - ClothingNeckIFFOrange
   - ClothingNeckIFFPurple
-  - ClothingHeadHelmetMercenary
-  - ClothingHeadHelmetBasic
-  - ClothingOuterVestWebMercenary
-  - ClothingOuterVestWebMercenaryBlack
+#  - ClothingHeadHelmetMercenary # Commented by LuaM
+#  - ClothingHeadHelmetBasic # Commented by LuaM
+#  - ClothingOuterVestWebMercenary # Commented by LuaM
+#  - ClothingOuterVestWebMercenaryBlack # Commented by LuaM
   - ClothingBeltMercenaryWebbing
   - ClothingBeltMilitaryWebbing
   - ClothingHandsMercenaryGlovesCombat
@@ -119,24 +119,25 @@
   - ArmorPlateHeat #Mono
   - ArmorPlateSpeed #Mono
   - TelescopicShield
-  - ClothingOuterArmorBulletproofNF
-  - ClothingOuterCoatBHTrench
-  - ClothingOuterArmorPunkRandomized
-  - ClothingOuterArmorPunkRed
-  - ClothingOuterArmorPunkGreen
-  - ClothingOuterArmorPunkOrange
-  - ClothingOuterArmorElitePunkRandomized
-  - ClothingBeltPunkRandomized
-  - ClothingShoesBootsPunkRandomized
-  - ClothingEyesPunkGoggles
-  - ClothingEyesPunkInfoShades
-  - ClothingMaskPunkHalf
-  - ClothingUniformRandomPunkTanktop
-  - ClothingUniformRandomPunkTanktopShorts
-  - ClothingUniformRandomPunkCroptop
-  - ClothingUniformRandomPunkCroptopShorts
-  - ClothingOuterCoatLettermanRandomized
-  - ClothingOuterCoatBomberRandomized
+#  - ClothingOuterArmorBulletproofNF # Commented by LuaM
+#  - ClothingOuterCoatBHTrench # Commented by LuaM
+#  - ClothingOuterArmorPunkRandomized # Commented by LuaM
+#  - ClothingOuterArmorPunkRed # Commented by LuaM
+#  - ClothingOuterArmorPunkGreen # Commented by LuaM
+#  - ClothingOuterArmorPunkOrange # Commented by LuaM
+#  - ClothingOuterArmorElitePunkRandomized # Commented by LuaM
+#  - ClothingBeltPunkRandomized # Commented by LuaM
+#  - ClothingShoesBootsPunkRandomized # Commented by LuaM
+#  - ClothingEyesPunkGoggles # Commented by LuaM
+#  - ClothingEyesPunkInfoShades # Commented by LuaM
+#  - ClothingMaskPunkHalf # Commented by LuaM
+#  - ClothingUniformRandomPunkTanktop # Commented by LuaM
+#  - ClothingUniformRandomPunkTanktopShorts # Commented by LuaM
+#  - ClothingUniformRandomPunkCroptop # Commented by LuaM
+#  - ClothingUniformRandomPunkCroptopShorts # Commented by LuaM
+#  - ClothingOuterCoatLettermanRandomized # Commented by LuaM
+#  - ClothingOuterCoatBomberRandomized # Commented by LuaM
+  - ClothingBackpackJack
 ## EVA / Hardsuits
   - ClothingOuterHardsuitCap
   - ClothingOuterHardsuitMercenary
@@ -180,7 +181,6 @@
   - WeaponXrayCannon
 #Mono start
   - WeaponLMGRatel
-  - WeaponRifleIroh
   - WeaponShotgunBigBuddy
   - WeaponShotgunBigJohnny
   - WeaponShotgunEnforcerMerc
@@ -207,6 +207,7 @@
   - UllmanWeaponPulseRifle
   - UllmanWeaponPulseSniper
   - UllmanMeleePlasmaBlade
+  - WeaponShotgunJack
   ## LPC
   - BalorDroneVoucherMerc
 #Mono end

@@ -1,12 +1,10 @@
-ent-WeaponRifleLecter = M-6 «Лектер»
-    .desc = Проект нового стандартного ружья для вооружённых сил ТСФ. Точное и удобное, стреляет безгильзовым 6,8×52 мм STANAG; также принимает магазины 5,56×45 мм для унификации боекомплекта.
-ent-WeaponRifleLecterRubber = M-6 «Лектер»
+ent-WeaponRifleLecterRubber = QBZ-410 «Лектер»
     .suffix = Травматический
     .desc = { ent-WeaponRifleLecter.desc }
 ent-WeaponRifleNovaliteC1Rubber = { ent-WeaponRifleNovaliteC1 }
     .suffix = Травматический
     .desc = { ent-WeaponRifleNovaliteC1.desc }
-ent-WeaponRifleSVS = СВС-42
+ent-WeaponRifleSVS = СВС-42 «Майор»
     .desc = Старая винтовка, разработанная Самоновым. Выглядит так, будто она побывала на нескольких войнах. В ней используются магазины 30-го калибра малой емкости. Оснащена штыком.
 ent-WeaponSniperCeremonial = церемониальная винтовка
     .desc = Церемониальный вариант винтовки Mark 1, в изысканном сине-белом цвете. Использует винтовочные патроны .30.

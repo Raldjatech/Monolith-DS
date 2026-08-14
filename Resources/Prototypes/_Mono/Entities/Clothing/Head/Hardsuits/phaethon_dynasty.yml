@@ -1,8 +1,8 @@
 - type: entity
-  parent: [ClothingHeadHelmetHardsuitSyndie, ShowSecurityIcons]
+  parent: [ClothingHeadHelmetHardsuitSyndie, ShowSecurityIcons, NightVisionComfortGreen] # LuaM add NightVisionComfortGreen
   id: ClothingHeadHelmetHardsuitAshen
   name: PDV CV-32 combat hardsuit helmet
-  description: A combat hardsuit helmet designed by the Phaethon Dynasty.
+  description: A combat hardsuit helmet designed by the Phaethon Dynasty. A basic monotube night vision system is installed.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -47,10 +47,10 @@
     - HeadSide
 
 - type: entity
-  parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons, ShowMedicalIcons ] # LuaM add ShowMedicalIcons
+  parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons, ShowMedicalIcons, NightVisionComfortGreen ] # LuaM add ShowMedicalIcons, NightVisionComfortGreen
   id: ClothingHeadHelmetHardsuitAshenElite
   name: PDV CV-53 combat tacsuit helmet
-  description: Based off of the CV-32 hardsuit, this tacsuit sacrifices heavy armor plates for environmental protection.
+  description: Based off of the CV-32 hardsuit, this tacsuit sacrifices heavy armor plates for environmental protection, and an advanced NVD suite.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
     sprite: _LuaM/Clothing/Head/Hardsuits/syndieelite.rsi # LuaM: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi -> _LuaM/Clothing/Head/Hardsuits/syndieelite.rsi
 
 - type: entity
-  parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons, ShowMedicalIcons ] # LuaM add ShowMedicalIcons
+  parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons, ShowMedicalIcons, NightVisionComfortGreen ] # LuaM add ShowMedicalIcons, NightVisionComfortGreen
   id: ClothingHeadHelmetHardsuitVizier
   name: PDV CV-67 combat hardsuit helmet
   description: An adorned tacsuit designed with an imperfect nanolaminate composition. High maneuverability, sturdy armor.

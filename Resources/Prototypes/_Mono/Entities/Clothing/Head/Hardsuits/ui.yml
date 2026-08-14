@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: [ClothingHeadHardsuitBase, NightVisionComfortGreen] # LuaM add NightVisionComfortGreen
   id: ClothingHelmetHardsuitUIEnforcer
   name: U.I. ENFORCER MKI helmet
   description: Flash-proof lining, in built night vision system, and looks good as hell. Other than information display port being snapped, what's more to ask for?
@@ -13,9 +13,6 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: FlashImmunity
-  - type: NightVision
-    flashDurationMultiplier: 0.85
-    isEquipment: true
   - type: Armor
     modifiers:
       coefficients:
@@ -34,7 +31,7 @@
     - HeadSide
 
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ShowMedicalIcons]
+  parent: [ClothingHeadHardsuitBase, ShowMedicalIcons, NightVisionComfortGreen] # LuaM add NightVisionComfortGreen
   id: ClothingHelmetHardsuitUIEnforcerMKII
   name: U.I. ENFORCER MKII Combat helmet
   description: This top of the line helmet comes with flashproof lining, a mass scanner and an inbuilt medical diagnostic system.
@@ -58,9 +55,6 @@
       enum.RadarConsoleUiKey.Key:
         type: RadarConsoleBoundUserInterface
   - type: FlashImmunity
-  - type: NightVision
-    flashDurationMultiplier: 0.85
-    isEquipment: true
   - type: Armor
     modifiers:
       coefficients:
@@ -79,7 +73,7 @@
     - HeadSide
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: [ClothingHeadHardsuitBase, NightVisionComfortGreen] # LuaM add NightVisionComfortGreen
   id: ClothingHelmetHardsuitUIEngineer
   name: U.I. engineering helmet
   description: A cheap and effective hardsuit helmet, just with an extra black market touch.
@@ -92,9 +86,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
-  - type: NightVision
-    flashDurationMultiplier: 0.85
-    isEquipment: true
   - type: Armor
     modifiers:
       coefficients:
@@ -113,7 +104,7 @@
     - HeadSide
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: [ClothingHeadHardsuitBase, NightVisionComfortGreen] # LuaM add NightVisionComfortGreen
   id: ClothingHelmetHardsuitUIPilot
   name: U.I. pilot helmet
   description: A helmet for Ullman Industry pilots.
@@ -126,9 +117,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
-  - type: NightVision
-    flashDurationMultiplier: 0.85
-    isEquipment: true
   - type: Armor
     modifiers:
       coefficients:
@@ -148,7 +136,7 @@
     - HeadSide
 
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ShowSecurityIcons]
+  parent: [ClothingHeadHardsuitBase, ShowSecurityIcons, NightVisionComfortGreen] # LuaM add NightVisionComfortGreen
   id: ClothingHelmetHardsuitUIDirector
   name: U.I. VK-1 experimental helmet
   description: A purpose built helmet designed by Felix Ullman, for Felix Ullman.
@@ -172,9 +160,6 @@
       enum.RadarConsoleUiKey.Key:
         type: RadarConsoleBoundUserInterface
   - type: FlashImmunity
-  - type: NightVision
-    flashDurationMultiplier: 0.85
-    isEquipment: true
   - type: Armor
     modifiers:
       coefficients:
