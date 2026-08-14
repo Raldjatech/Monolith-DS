@@ -51,6 +51,10 @@
       gun_chamber: !type:ContainerSlot
   - type: StaticPrice
     price: 500
+  - type: Multishot # Goobstation V
+    missChance: 0.4
+    spreadMultiplier: 3
+    spreadAddition: 60
   - type: ItemTax # Mono
     taxAccounts:
       nfsd: 0.2

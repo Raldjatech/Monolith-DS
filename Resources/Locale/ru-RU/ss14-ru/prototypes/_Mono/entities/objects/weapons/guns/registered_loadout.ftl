@@ -30,3 +30,5 @@ ent-WeaponShotgunEnforcerRegistered = { ent-WeaponShotgunEnforcer } (зарег�
     .desc = { ent-WeaponShotgunEnforcer.desc }
 ent-WeaponRifleMR3CRegistered = { ent-WeaponRifleMR3C } (зарегистр.)
     .desc = { ent-WeaponRifleMR3C.desc }
+ent-WeaponSubMachineGunMalandroRegistered = { ent-WeaponSubMachineGunMalandro } (зарегистр.)
+    .desc = { ent-WeaponSubMachineGunMalandro.desc }

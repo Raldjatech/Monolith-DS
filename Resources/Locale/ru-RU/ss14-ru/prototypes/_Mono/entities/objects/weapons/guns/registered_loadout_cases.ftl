@@ -30,5 +30,6 @@ ent-WeaponCaseLongVulcanRegistered = кейс c R-11 «Вулкан»
 ent-WeaponCaseLongMR3CRegistered = кейс с QBU-430 «Бандит»
     .desc = Ящик для хранения крупнокалиберного оружия и аксессуаров к нему.
     .suffix = Лодаут, QBU-430, Бандит
-ent-WeaponCaseMalandroRegistered = кейс WT-110 с «Маландро»
+ent-WeaponCaseMalandroRegistered = кейс с WT-110 «Маландро»
     .desc = Ящик для хранения крупнокалиберного оружия и аксессуаров к нему.
+    .suffix = Лодаут, WT-110, Маландро
