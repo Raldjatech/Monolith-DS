@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingHeadHardsuitBase, NightVisionComfortBlue] # LuaM add NightVisionComfortBlue
+  parent: [ClothingHeadHardsuitBase]
   id: ClothingHeadHelmetHardsuitM82
   name: M82 helmet
   description: The interchangeable helmet system for the majority of M82 hardsuits. Outfitted with a basic NVG system.
@@ -25,9 +25,21 @@
     - Snout
     - HeadTop
     - HeadSide
+# LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#337a98"
+    lightingColor: "#0EFFFFFF"
+    amplification: 1.0
+# LuaM end
 
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ShowMedicalIcons, ShowSecurityIcons, NightVisionComfortBlue ] # LuaM add ShowSecurityIcons, NightVisionComfortBlue
+  parent: [ClothingHeadHardsuitBase, ShowMedicalIcons, ShowSecurityIcons ] # LuaM add ShowSecurityIcons
   id: ClothingHeadHelmetHardsuitM86
   name: M86 helmet
   description: Modified from M82 series helmets, outfitted with night-vision equipment and refined gel-layers.
@@ -53,6 +65,18 @@
     - Snout
     - HeadTop
     - HeadSide
+# LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#337a98"
+    lightingColor: "#0EFFFFFF"
+    amplification: 1.0
+# LuaM end
 
 # MARSOC helmet
 - type: entity
@@ -60,15 +84,18 @@
   id: ClothingHeadHelmetHardsuitM86Mk4
   categories: [ HideSpawnMenu ]
   components:
-  - type: NightVision # LuaM edit start
+# LuaM start
+  - type: NightVision
     relayOverlay: true
     goggleEffect: true
-    viewCircleRadius: 880
-    viewCircleCount: 1
-    viewCircleSpacing: 1
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
     action: ActionToggleNightVision
     phosphorColor: "#337a98"
-    lightingColor: "#ffffff52" # LuaM edit end
+    lightingColor: "#0EFFFFFF"
+    amplification: 1.0
+# LuaM end
 
 - type: entity
   parent: [NFClothingHeadHardsuitWithLightBaseNfsd, ShowMedicalIcons, ShowSecurityIcons]
@@ -88,7 +115,7 @@
     protectionTime: 15
 
 - type: entity
-  parent: [NFClothingHeadHardsuitWithLightBaseNfsd, ShowMedicalIcons, ShowSecurityIcons, NightVisionComfortBlue] # LuaM add NightVisionComfortBlue
+  parent: [NFClothingHeadHardsuitWithLightBaseNfsd, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitNfsdExperimental
   categories: [ HideSpawnMenu ]
   name: TSFMC M92-X tacsuit helmet
@@ -110,6 +137,18 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+# LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#337a98"
+    lightingColor: "#0EFFFFFF"
+    amplification: 1.0
+# LuaM end
 
 #Security Command Hardsuit
 - type: entity

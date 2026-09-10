@@ -99,7 +99,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    damageModifier: 4
+    damageModifier: 2 # LuaM: 4 > 2
     fireRate: 1.5
     recoil: 10 # 2/5x
     projectileSpeed: 300

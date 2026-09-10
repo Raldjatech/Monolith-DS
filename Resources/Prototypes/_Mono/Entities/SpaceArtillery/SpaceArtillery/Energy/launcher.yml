@@ -206,7 +206,7 @@
     range: 500
   - type: FireControlRotate
   - type: Gun
-    damageModifier: 5
+    damageModifier: 2 # LuaM: 5 > 2
     fireRate: 5
     recoil: 2 # 2/25x
     projectileSpeed: 20

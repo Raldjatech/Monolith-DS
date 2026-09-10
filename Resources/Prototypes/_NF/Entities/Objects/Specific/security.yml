@@ -81,6 +81,9 @@
   - type: Tag
     tags:
     - SecurityUplink
+  - type: CompanyAccessReader # LuaM add
+    requiredCompanies:
+    - TSF
 
 - type: entity
   parent: BaseSecurityUplinkRadio

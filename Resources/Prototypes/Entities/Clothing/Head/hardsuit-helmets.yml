@@ -467,7 +467,7 @@
 
 #Syndicate Elite Hardsuit
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons, NightVisionComfortGreen ] # LuaM add ShowMedicalIcons ShowSecurityIcons NightVisionComfortGreen
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons] # LuaM add ShowMedicalIcons ShowSecurityIcons
   id: ClothingHeadHelmetHardsuitSyndieElite
   name: syndicate elite helmet
   description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
@@ -479,6 +479,18 @@
   - type: PointLight
     radius: 5 # Mono
     color: red
+# LuaM start
+  - type: NightVision
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 1000
+    viewCircleCount: 3
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#2df9d7"
+    lightingColor: "#0EFFFFFF"
+    amplification: 2.0
+# LuaM end
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000

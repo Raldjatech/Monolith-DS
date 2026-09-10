@@ -85,6 +85,9 @@
   - type: Tag
     tags:
     - PirateUplink
+  - type: CompanyAccessReader # LuaM add
+    requiredCompanies:
+    - PDV
 
 - type: entity
   parent: BasePirateUplink
